@@ -15,24 +15,24 @@ Observing that your neighbor says "Yes, it's burning"
 
 
 Compute:
-  a) Non-normalized P(F|B)
-  b) Non-normalized P(not F | B)
-  c) Normalized P(F|B)
-  d) Normalized P(not F | B)
+  * Non-normalized P(F|B)
+  * Non-normalized P(not F | B)
+  * Normalized P(F|B)
+  * Normalized P(not F | B)
 
 
 Answer:
 
-a) Non-normalized P(F|B) = P(B|F)*P(F)
-                         =  0.9  *0.001 = 0.0009
+*  Non-normalized P(F|B) = P(B|F)*P(F)
+*                        =  0.9  *0.001 = 0.0009
 
-b) Non-normalized P(not F | B) = P(B| not F) * P(not F)
-                               =     0.1     * 0.999
-                               = 0.0999
-c) Normalized P(F|B) =   [Non-normalized P(F|B)] / [Non-normalized P(F|B)  +  Non-normalized P(not F | B)]   
-                     =          0.0009           / [        0.0009         +             0.0999          ]                           
-                     =   0.0089
+*  Non-normalized P(not F | B) = P(B| not F) * P(not F)
+*                              =     0.1     * 0.999
+*                              = 0.0999
+*  Normalized P(F|B) =   [Non-normalized P(F|B)] / [Non-normalized P(F|B)  +  Non-normalized P(not F | B)]   
+*                    =          0.0009           / [        0.0009         +             0.0999          ]                           
+*                    =   0.0089
 
-d) Normalized P(not F | B) = [Non-normalized P( not F | B)] / [Non-normalized P(F|B)  +  Non-normalized P(not F | B)]  
-                           =          0.0999                / (        0.0009         +             0.0999          )                           
-                           =   0.99
+*  Normalized P(not F | B) = [Non-normalized P( not F | B)] / [Non-normalized P(F|B)  +  Non-normalized P(not F | B)]  
+*                          =          0.0999                / (        0.0009         +             0.0999          )                           
+*                          =   0.99
